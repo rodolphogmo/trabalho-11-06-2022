@@ -1,0 +1,59 @@
+{% extends 'template.html' %}
+
+{% block title %} {{ super()}} - Sobre {% endblock %}
+
+{% block About %}
+
+<!-- About-->
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Sobre</h2>
+            <h3 class="section-subheading text-muted">Engenharia de Software.</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='assets/img/about/11.png')}}" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4></h4>
+                        <h4 class="subheading">Sobre o curso</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">O curso de Bacharelado em Engenharia de Software da Universidade de Vassouras, está alinhado às novas diretrizes curriculares dos cursos de graduação em Engenharia e Computação do MEC e foi construído a partir do resultado de uma matriz curricular baseada no desenvolvimento de competências</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='assets/img/about/12.webp')}}" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4></h4>
+                        <h4 class="subheading">Sobre os Engenheiros de Software</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Os engenheiros de software da Universidade de Vassouras têm uma formação sólida baseada em competências e valores construídos na vida universitária</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='assets/img/about/13.jpg')}}" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4></h4>
+                        <h4 class="subheading">Sobre as diciplinas</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">As disciplinas do curso estão estruturas em quatro grandes eixos de formação: (1) Engenharia e Desenvolvimento de Software, (2) Engenharia e Gestão de Projetos de Software, (3) Engenharia de Software para Empreendedorismo e Inovação, (4) Engenharia de Software Experimental – Pesquisa e Extensão</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='assets/img/about/4.jpg')}}" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4></h4>
+                        <h4 class="subheading">Preparação</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Os egressos do curso de Engenharia de Software estarão aptos a atuar nos mais variados setores da economia que demandem algum tipo de software.</p></div>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+{% endblock %}
